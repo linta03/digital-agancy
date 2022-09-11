@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1">
+    <link rel="stylesheet" href="doob.css">
+    <link rel="stylesheet" href="responsiv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Doob</title>
+</head>
+
+<body>
+    <header class="cont">
+        <nav class="navibar inner flex">
+            <div class="logo-box">
+                <img src="./digital.logo.png.crdownload" class="logo">
+            </div>
+            <div class="menu-box">
+                <ul class="menu flex">
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Portfolio</li>
+                    <li>Blog</li>
+                    <li>Contact us</li>
+                    <li class="bold">En <span><i class="fa-sharp fa-solid fa-caret-down"></i></span></li>
+                </ul>
+            </div>
+            <div class="search-box">
+                <button class="btnn1">Contact us
+                </button>
+            </div>
+            <button  id="res-nav-btn" class="btn"><i id="hamburger" onclick="navshow()" class="fa-solid fa-list"></i>  <i id="cross"  onclick="navhide()" class="fa-solid fa-xmark"></i></button>
+        </nav>
+        <section class="baner inner flex">
+            <div class="box1">
+                <h1>The Spirt Of <br>Digital Agency</h1>
+                <p>
+                    vestibulum ac diam sit amet quam vehical elementum <br>
+                    amet est on dui. null porttitor accumsan tincidunt.
+                </p>
+                <button class="btn2">More About Us</button>
+                <button class="btn3">Get In Touch</button>
+            </div>
+            <div class="box">
+                <img src="./bg1.jpg" class="baner-img">
+            </div>
+        </section>
+    </header>
+    <section class="three-section inner flex">
+        <div class="boxx">
+            <h2> Any Thing You Need, We Got You Covered</h2>
+            <button class="btn4">Get In Touch</button>
+        </div>
+        <div class="box-2">
+            <img src="./icon2.png" class="one-img">
+            <h3>Web & Graphic <br>Designing</h3>
+            <p> Adipisicing elit. Nostrum consequatur, nesciunt iusto sit libero
+                nobis necessitatibus deserunt quisquam perferendis veniam. nobis, necessitatibus deserunt quisquam
+                perferendis</p>
+        </div>
+        <div class="box-2">
+            <img src="./app.png" class="tow-img">
+            <h3>Web & App<br>Develper</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequatur, nesciunt iusto sit libero
+                perferendis veniam.</p>
+        </div>
+    </section>
+
+    <section class="two-section inner flex">
+        <div class="two-box">
+            <img src="./bg2.jpg" class="about">
+        </div>
+        <div class="two-box-text">
+            <h5>Our Company</h5>
+            <h2>Some Fine <br>Words About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Repellat maiores perferendis totam. Necessitatibus, doloremque ut!
+                vero ea mollitia numquam alias libero laboriosam eum enim sunt dolor.</p>
+            <br>
+            <span><i class="fa-solid fa-right-long"></i></span>
+        </div>
+    </section>
+
+    <section class="img">
+        <div class="angry-grid">
+            <div id="item-0"><img height="250px" src="./item1.jpg" alt=""></div>
+            <div id="item-1"><img height="250px" src="./img2.jpg" alt=""> </div>
+            <div id="item-2"><img height="250px"  src="./item2.jpg" alt=""></div>
+            <div id="item-3"><img height="250px" src="./img5.jpg" alt=""></div>
+            <div id="item-4"><img height="250px" src="./item4.jpg" alt=""></div>
+            <div id="item-5"><img height="250px" src="./item5.jpg" alt=""></div>
+          </div>
+        <p>Show More</p>
+    </section>
+
+    <section class="three-section2 inner ">
+        <h5 class="red-font">Blog Stories</h5>
+        <h2>Check Our News</h2>
+        <div class="three-box2 flex">
+            <div class="three-box red-box">
+                <h5>New Adventure</h5>
+                <h6>1 Aug 2017</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, magnam. Eaque architecto fuga
+                    omnis sed.</p>
+                <span><i class="fa-solid fa-right-long"></i></span>
+            </div>
+
+
+            <div class="three-box">
+                <h5>New Adventure</h5>
+                <h6>13 FAB 2018</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, magnam. Eaque architecto fuga
+                    omnis sed.</p>
+                <span class="red-aero"><i class="fa-solid fa-right-long"></i></span>
+            </div>
+
+            <div class="three-box">
+                <h5>New Adventure</h5>
+                <h6>08 OCT 2020</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, magnam. Eaque architecto
+                    fuga omnis sed.</p>
+                <span class="red-aero"><i class="fa-solid fa-right-long"></i></span>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact three-section2 inner">
+        <div class="contact-text">
+            <h5 class="red-font">Contact Us</h5>
+            <h2>Get In Touch</h2>
+        </div>
+        <div class="form-section">
+            <form action="#">
+                <input type="text" placeholder="Your Email" class="contact-box">
+                <input type="text" placeholder="Subject" class="contact-box">
+                <textarea name="message" id="message-box" cols="30" rows="10" placeholder="Message"></textarea>
+            </form>
+        </div>
+        <button class="btn5">Send Message</button>
+    </section>
+
+    <footer>
+        <div class="footer-box inner">
+            <h5>Digital Agency</h5>
+            <h3>Creativity Above</h3>
+            <ul class="footer-list flex">
+                <li>Home</li>
+                <li>About us</li>
+                <li>Portfolio</li>
+                <li>Blog</li>
+                <li>Contact us</li>
+            </ul>
+            <h6>@2017-Digital Agency,All Rights Reserved</h6>
+            <div class="soucial">
+                <span><i class="fa-brands fa-facebook"></i></span>
+                <span class="twi"><i class="fa-brands fa-twitter"></i></span>
+                <span><i class="fa-brands fa-instagram"></i></span>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
